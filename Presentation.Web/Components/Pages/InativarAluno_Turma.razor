@@ -1,0 +1,54 @@
+﻿@page "/aluno-turma-inativar/{Id:int}"
+@using Presentation.Web.Models.DTOs;
+@using Presentation.Web.Services;
+@inject IAluno_TurmaService _aluno_TurmaService
+@inject NavigationManager NavigationManager;
+
+<h3>Inativar Aluno</h3>
+
+@if (aluno_turma != null)
+{
+    <EditForm Model="aluno_turma" OnValidSubmit="InativarAlunoConfirm" FormName="aluno_turma">
+        <p>Tem certeza que deseja inativar essa relação?</p>
+        <button type="submit" class="btn btn-danger">Confirmar</button>
+    </EditForm>
+}
+else
+{
+    <p>Relação não encontrada.</p>
+}
+
+@code {
+    [Parameter]
+    public int Id { get; set; }
+
+    Aluno_TurmaDTO aluno_turma;
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            aluno_turma = await _aluno_TurmaService.GetById(Id);
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Erro ao carregar relação: {ex.Message}");
+        }
+    }
+
+    private async Task InativarAlunoConfirm()
+    {
+        try
+        {
+            if (aluno_turma != null)
+            {
+                await _aluno_TurmaService.Disable(aluno_turma.Id);
+                NavigationManager.NavigateTo("aluno-turma-grid");
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Erro ao inativar relação: {ex.Message}");
+        }
+    }
+}

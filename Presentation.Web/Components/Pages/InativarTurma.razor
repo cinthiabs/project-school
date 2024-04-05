@@ -1,0 +1,54 @@
+﻿@page "/turma-inativar/{Id:int}"
+@using Presentation.Web.Models.DTOs;
+@using Presentation.Web.Services;
+@inject ITurmaService _turmaService
+@inject NavigationManager NavigationManager;
+
+<h3>Inativar Turma</h3>
+
+@if (turma != null)
+{
+    <EditForm Model="turma" OnValidSubmit="InativarTurmaConfirm" FormName="Turma">
+        <p>Tem certeza que deseja inativar o aluno <strong>@turma.Turma</strong>?</p>
+        <button type="submit" class="btn btn-danger">Confirmar</button>
+    </EditForm>
+}
+else
+{
+    <p>Aluno não encontrado.</p>
+}
+
+@code {
+    [Parameter]
+    public int Id { get; set; }
+
+    TurmaDTO turma;
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            turma = await _turmaService.GetById(Id);
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Erro ao carregar aluno: {ex.Message}");
+        }
+    }
+
+    private async Task InativarTurmaConfirm()
+    {
+        try
+        {
+            if (turma != null)
+            {
+                await _turmaService.Disable(turma.Id);
+                NavigationManager.NavigateTo("/turma-grid");
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Erro ao inativar turma: {ex.Message}");
+        }
+    }
+}

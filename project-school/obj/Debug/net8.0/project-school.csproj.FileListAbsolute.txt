@@ -1,0 +1,92 @@
+C:\GITHUB\project-school\project-school\project-school\bin\Debug\net8.0\appsettings.Development.json
+C:\GITHUB\project-school\project-school\project-school\bin\Debug\net8.0\appsettings.json
+C:\GITHUB\project-school\project-school\project-school\bin\Debug\net8.0\project-school.exe
+C:\GITHUB\project-school\project-school\project-school\bin\Debug\net8.0\project-school.deps.json
+C:\GITHUB\project-school\project-school\project-school\bin\Debug\net8.0\project-school.runtimeconfig.json
+C:\GITHUB\project-school\project-school\project-school\bin\Debug\net8.0\project-school.dll
+C:\GITHUB\project-school\project-school\project-school\bin\Debug\net8.0\project-school.pdb
+C:\GITHUB\project-school\project-school\project-school\bin\Debug\net8.0\Dapper.dll
+C:\GITHUB\project-school\project-school\project-school\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\GITHUB\project-school\project-school\project-school\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\GITHUB\project-school\project-school\project-school\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\GITHUB\project-school\project-school\project-school\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\GITHUB\project-school\project-school\project-school\bin\Debug\net8.0\System.Data.SqlClient.dll
+C:\GITHUB\project-school\project-school\project-school\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
+C:\GITHUB\project-school\project-school\project-school\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
+C:\GITHUB\project-school\project-school\project-school\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
+C:\GITHUB\project-school\project-school\project-school\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\GITHUB\project-school\project-school\project-school\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\GITHUB\project-school\project-school\project-school\bin\Debug\net8.0\Domain.dll
+C:\GITHUB\project-school\project-school\project-school\bin\Debug\net8.0\Entities.dll
+C:\GITHUB\project-school\project-school\project-school\bin\Debug\net8.0\Infra.dll
+C:\GITHUB\project-school\project-school\project-school\bin\Debug\net8.0\Domain.pdb
+C:\GITHUB\project-school\project-school\project-school\bin\Debug\net8.0\Entities.pdb
+C:\GITHUB\project-school\project-school\project-school\bin\Debug\net8.0\Infra.pdb
+C:\GITHUB\project-school\project-school\project-school\obj\Debug\net8.0\project-school.csproj.AssemblyReference.cache
+C:\GITHUB\project-school\project-school\project-school\obj\Debug\net8.0\project-school.GeneratedMSBuildEditorConfig.editorconfig
+C:\GITHUB\project-school\project-school\project-school\obj\Debug\net8.0\project-school.AssemblyInfoInputs.cache
+C:\GITHUB\project-school\project-school\project-school\obj\Debug\net8.0\project-school.AssemblyInfo.cs
+C:\GITHUB\project-school\project-school\project-school\obj\Debug\net8.0\project-school.csproj.CoreCompileInputs.cache
+C:\GITHUB\project-school\project-school\project-school\obj\Debug\net8.0\project-school.MvcApplicationPartsAssemblyInfo.cs
+C:\GITHUB\project-school\project-school\project-school\obj\Debug\net8.0\project-school.MvcApplicationPartsAssemblyInfo.cache
+C:\GITHUB\project-school\project-school\project-school\obj\Debug\net8.0\staticwebassets.build.json
+C:\GITHUB\project-school\project-school\project-school\obj\Debug\net8.0\staticwebassets.development.json
+C:\GITHUB\project-school\project-school\project-school\obj\Debug\net8.0\staticwebassets\msbuild.project-school.Microsoft.AspNetCore.StaticWebAssets.props
+C:\GITHUB\project-school\project-school\project-school\obj\Debug\net8.0\staticwebassets\msbuild.build.project-school.props
+C:\GITHUB\project-school\project-school\project-school\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.project-school.props
+C:\GITHUB\project-school\project-school\project-school\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.project-school.props
+C:\GITHUB\project-school\project-school\project-school\obj\Debug\net8.0\staticwebassets.pack.json
+C:\GITHUB\project-school\project-school\project-school\obj\Debug\net8.0\scopedcss\bundle\project-school.styles.css
+C:\GITHUB\project-school\project-school\project-school\obj\Debug\net8.0\project-.230E5602.Up2Date
+C:\GITHUB\project-school\project-school\project-school\obj\Debug\net8.0\project-school.dll
+C:\GITHUB\project-school\project-school\project-school\obj\Debug\net8.0\refint\project-school.dll
+C:\GITHUB\project-school\project-school\project-school\obj\Debug\net8.0\project-school.pdb
+C:\GITHUB\project-school\project-school\project-school\obj\Debug\net8.0\project-school.genruntimeconfig.cache
+C:\GITHUB\project-school\project-school\project-school\obj\Debug\net8.0\ref\project-school.dll
+C:\GITHUB\project-school\project-school\project-school\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Nova pasta\project-school\project-school\bin\Debug\net8.0\appsettings.Development.json
+C:\Nova pasta\project-school\project-school\bin\Debug\net8.0\appsettings.json
+C:\Nova pasta\project-school\project-school\bin\Debug\net8.0\project-school.exe
+C:\Nova pasta\project-school\project-school\bin\Debug\net8.0\project-school.deps.json
+C:\Nova pasta\project-school\project-school\bin\Debug\net8.0\project-school.runtimeconfig.json
+C:\Nova pasta\project-school\project-school\bin\Debug\net8.0\project-school.dll
+C:\Nova pasta\project-school\project-school\bin\Debug\net8.0\project-school.pdb
+C:\Nova pasta\project-school\project-school\bin\Debug\net8.0\Dapper.dll
+C:\Nova pasta\project-school\project-school\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Nova pasta\project-school\project-school\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Nova pasta\project-school\project-school\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Nova pasta\project-school\project-school\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Nova pasta\project-school\project-school\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Nova pasta\project-school\project-school\bin\Debug\net8.0\System.Data.SqlClient.dll
+C:\Nova pasta\project-school\project-school\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
+C:\Nova pasta\project-school\project-school\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
+C:\Nova pasta\project-school\project-school\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
+C:\Nova pasta\project-school\project-school\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Nova pasta\project-school\project-school\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Nova pasta\project-school\project-school\bin\Debug\net8.0\Domain.dll
+C:\Nova pasta\project-school\project-school\bin\Debug\net8.0\Entities.dll
+C:\Nova pasta\project-school\project-school\bin\Debug\net8.0\Infra.dll
+C:\Nova pasta\project-school\project-school\bin\Debug\net8.0\Domain.pdb
+C:\Nova pasta\project-school\project-school\bin\Debug\net8.0\Entities.pdb
+C:\Nova pasta\project-school\project-school\bin\Debug\net8.0\Infra.pdb
+C:\Nova pasta\project-school\project-school\obj\Debug\net8.0\project-school.csproj.AssemblyReference.cache
+C:\Nova pasta\project-school\project-school\obj\Debug\net8.0\project-school.GeneratedMSBuildEditorConfig.editorconfig
+C:\Nova pasta\project-school\project-school\obj\Debug\net8.0\project-school.AssemblyInfoInputs.cache
+C:\Nova pasta\project-school\project-school\obj\Debug\net8.0\project-school.AssemblyInfo.cs
+C:\Nova pasta\project-school\project-school\obj\Debug\net8.0\project-school.csproj.CoreCompileInputs.cache
+C:\Nova pasta\project-school\project-school\obj\Debug\net8.0\project-school.MvcApplicationPartsAssemblyInfo.cs
+C:\Nova pasta\project-school\project-school\obj\Debug\net8.0\project-school.MvcApplicationPartsAssemblyInfo.cache
+C:\Nova pasta\project-school\project-school\obj\Debug\net8.0\staticwebassets.build.json
+C:\Nova pasta\project-school\project-school\obj\Debug\net8.0\staticwebassets.development.json
+C:\Nova pasta\project-school\project-school\obj\Debug\net8.0\staticwebassets\msbuild.project-school.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Nova pasta\project-school\project-school\obj\Debug\net8.0\staticwebassets\msbuild.build.project-school.props
+C:\Nova pasta\project-school\project-school\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.project-school.props
+C:\Nova pasta\project-school\project-school\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.project-school.props
+C:\Nova pasta\project-school\project-school\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Nova pasta\project-school\project-school\obj\Debug\net8.0\scopedcss\bundle\project-school.styles.css
+C:\Nova pasta\project-school\project-school\obj\Debug\net8.0\project-.230E5602.Up2Date
+C:\Nova pasta\project-school\project-school\obj\Debug\net8.0\project-school.dll
+C:\Nova pasta\project-school\project-school\obj\Debug\net8.0\refint\project-school.dll
+C:\Nova pasta\project-school\project-school\obj\Debug\net8.0\project-school.pdb
+C:\Nova pasta\project-school\project-school\obj\Debug\net8.0\project-school.genruntimeconfig.cache
+C:\Nova pasta\project-school\project-school\obj\Debug\net8.0\ref\project-school.dll

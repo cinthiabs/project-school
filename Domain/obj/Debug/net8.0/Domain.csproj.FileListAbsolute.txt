@@ -1,0 +1,30 @@
+C:\GITHUB\project-school\project-school\Domain\bin\Debug\net8.0\Domain.deps.json
+C:\GITHUB\project-school\project-school\Domain\bin\Debug\net8.0\Domain.dll
+C:\GITHUB\project-school\project-school\Domain\bin\Debug\net8.0\Domain.pdb
+C:\GITHUB\project-school\project-school\Domain\bin\Debug\net8.0\Entities.dll
+C:\GITHUB\project-school\project-school\Domain\bin\Debug\net8.0\Entities.pdb
+C:\GITHUB\project-school\project-school\Domain\obj\Debug\net8.0\Domain.csproj.AssemblyReference.cache
+C:\GITHUB\project-school\project-school\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\GITHUB\project-school\project-school\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+C:\GITHUB\project-school\project-school\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+C:\GITHUB\project-school\project-school\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+C:\GITHUB\project-school\project-school\Domain\obj\Debug\net8.0\Domain.csproj.Up2Date
+C:\GITHUB\project-school\project-school\Domain\obj\Debug\net8.0\Domain.dll
+C:\GITHUB\project-school\project-school\Domain\obj\Debug\net8.0\refint\Domain.dll
+C:\GITHUB\project-school\project-school\Domain\obj\Debug\net8.0\Domain.pdb
+C:\GITHUB\project-school\project-school\Domain\obj\Debug\net8.0\ref\Domain.dll
+C:\Nova pasta\project-school\Domain\bin\Debug\net8.0\Domain.deps.json
+C:\Nova pasta\project-school\Domain\bin\Debug\net8.0\Domain.dll
+C:\Nova pasta\project-school\Domain\bin\Debug\net8.0\Domain.pdb
+C:\Nova pasta\project-school\Domain\bin\Debug\net8.0\Entities.dll
+C:\Nova pasta\project-school\Domain\bin\Debug\net8.0\Entities.pdb
+C:\Nova pasta\project-school\Domain\obj\Debug\net8.0\Domain.csproj.AssemblyReference.cache
+C:\Nova pasta\project-school\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Nova pasta\project-school\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+C:\Nova pasta\project-school\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+C:\Nova pasta\project-school\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+C:\Nova pasta\project-school\Domain\obj\Debug\net8.0\Domain.csproj.Up2Date
+C:\Nova pasta\project-school\Domain\obj\Debug\net8.0\Domain.dll
+C:\Nova pasta\project-school\Domain\obj\Debug\net8.0\refint\Domain.dll
+C:\Nova pasta\project-school\Domain\obj\Debug\net8.0\Domain.pdb
+C:\Nova pasta\project-school\Domain\obj\Debug\net8.0\ref\Domain.dll

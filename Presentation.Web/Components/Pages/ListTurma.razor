@@ -1,0 +1,76 @@
+﻿@page "/turma-grid"
+
+@using Presentation.Web.Models.DTOs;
+@using Presentation.Web.Services;
+@using Presentation.Web.Models.Enums
+@inject ITurmaService _turmaService
+@inject NavigationManager Navigation
+@inject IJSRuntime JSRuntime
+
+<PageTitle>Lista de Turmas</PageTitle>
+
+<h3>Lista de Turmas</h3>
+
+<div class="mb-3">
+    <a href="/turma-create" class="btn btn-primary">Novo</a>
+</div>
+
+@if (Data == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    @if (Data.Any())
+    {
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Turma</th>
+                    <th>Curso</th>
+                    <th>Data Criação</th>
+                    <th>Ativo</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var turma in Data)
+                {
+                    <tr>
+                        <td>@turma.Id</td>
+                        <td>@turma.Turma</td>
+                        <td>@turma.CursoName</td>
+                        <td>@turma.Data_Criacao.ToString("dd/MM/yyyy")</td>
+                        <td>@(turma.Ativo ? "Sim" : "Não")</td>
+                        <td>
+                            <a class="btn btn-primary" href="/turma-create/@turma.Id">Alterar</a>
+                            <a class="btn btn-warning" href="/turma-inativar/@turma.Id">Inativar</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <p><em>Nenhuma turma encontrado.</em></p>
+    }
+}
+
+@code {
+    private IEnumerable<TurmaDTO> Data;
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            Data = await _turmaService.GetAll();
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Erro ao obter alunos: {ex.Message}");
+        }
+    }
+
+}

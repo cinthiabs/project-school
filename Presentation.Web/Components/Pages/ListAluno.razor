@@ -1,0 +1,74 @@
+﻿@page "/aluno-grid"
+
+@using Presentation.Web.Models.DTOs;
+@using Presentation.Web.Services;
+@inject IAlunoService _alunoService
+@inject NavigationManager Navigation
+@inject IJSRuntime JSRuntime
+
+<PageTitle>Lista de Alunos</PageTitle>
+
+<h3>Lista de Alunos</h3>
+
+<div class="mb-3">
+    <a href="/aluno-create" class="btn btn-primary">Novo</a>
+</div>
+
+@if (Data == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    @if (Data.Any())
+    {
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Nome</th>
+                    <th>Usuário</th>
+                    <th>Data Criação</th>
+                    <th>Ativo</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var aluno in Data)
+                {
+                    <tr>
+                        <td>@aluno.Id</td>
+                        <td>@aluno.Nome</td>
+                        <td>@aluno.Usuario</td>
+                        <td>@aluno.Data_Criacao.ToString("dd/MM/yyyy")</td>
+                        <td>@(aluno.Ativo ? "Sim" : "Não")</td>
+                        <td>
+                            <a class="btn btn-primary" href="/aluno-create/@aluno.Id">Alterar</a>
+                            <a class="btn btn-warning" href="/aluno-inativar/@aluno.Id">Inativar</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <p><em>Nenhum aluno encontrado.</em></p>
+    }
+}
+
+@code {
+    private IEnumerable<AlunoDTO> Data;
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            Data = await _alunoService.GetAll();
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Erro ao obter alunos: {ex.Message}");
+        }
+    }
+}

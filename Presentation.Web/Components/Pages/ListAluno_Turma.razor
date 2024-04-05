@@ -1,0 +1,76 @@
+﻿@page "/aluno-turma-grid"
+
+@using Presentation.Web.Models.DTOs;
+@using Presentation.Web.Services;
+@inject IAluno_TurmaService _aluno_TurmaService
+@inject NavigationManager Navigation
+@inject IAlunoService _alunoService
+@inject ITurmaService _turmaService
+
+<PageTitle>Relacionamento</PageTitle>
+
+<h3>Relacionamento</h3>
+
+<div class="mb-3">
+    <a href="/aluno-turma-create" class="btn btn-primary">Novo</a>
+</div>
+
+@if (Data == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    @if (Data.Any())
+    {
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Aluno</th>
+                    <th>Turma</th>
+                    <th>Data Criação</th>
+                    <th>Ativo</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var aluno_turma in Data)
+                {
+                    <tr>
+                        <td>@aluno_turma.Id</td>
+                        <td>@aluno_turma.Aluno_Id</td>
+                        <td>@aluno_turma.Turma_Id</td>
+                        <td>@aluno_turma.Data_Criacao.ToString("dd/MM/yyyy")</td>
+                        <td>@(aluno_turma.Ativo ? "Sim" : "Não")</td>
+                        <td>
+                            <a class="btn btn-primary" href="/aluno-turma-create/@aluno_turma.Id">Alterar</a>
+                            <a class="btn btn-warning" href="/aluno-turma-inativar/@aluno_turma.Id">Inativar</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <p><em>Nenhum aluno encontrado.</em></p>
+    }
+}
+
+@code {
+    private IEnumerable<Aluno_TurmaDTO> Data;
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            Data = await _aluno_TurmaService.GetAll();
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Erro ao obter relacionamentos: {ex.Message}");
+        }
+    }
+
+}

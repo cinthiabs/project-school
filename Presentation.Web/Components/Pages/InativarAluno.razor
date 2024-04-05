@@ -1,0 +1,54 @@
+﻿@page "/aluno-inativar/{Id:int}"
+@using Presentation.Web.Models.DTOs;
+@using Presentation.Web.Services;
+@inject IAlunoService _alunoService;
+@inject NavigationManager NavigationManager;
+
+<h3>Inativar Aluno</h3>
+
+@if (aluno != null)
+{
+    <EditForm Model="aluno" OnValidSubmit="InativarAlunoConfirm" FormName="Aluno">
+        <p>Tem certeza que deseja inativar o aluno <strong>@aluno.Nome</strong>?</p>
+        <button type="submit" class="btn btn-danger">Confirmar</button>
+    </EditForm>
+}
+else
+{
+    <p>Aluno não encontrado.</p>
+}
+
+@code {
+    [Parameter]
+    public int Id { get; set; }
+
+    AlunoDTO aluno;
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            aluno = await _alunoService.GetById(Id);
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Erro ao carregar aluno: {ex.Message}");
+        }
+    }
+
+    private async Task InativarAlunoConfirm()
+    {
+        try
+        {
+            if (aluno != null)
+            {
+                await _alunoService.Disable(aluno.Id);
+                NavigationManager.NavigateTo("/aluno-grid");
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Erro ao inativar aluno: {ex.Message}");
+        }
+    }
+}

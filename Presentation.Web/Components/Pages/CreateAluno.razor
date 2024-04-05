@@ -1,0 +1,73 @@
+﻿@page "/aluno-create"
+@page "/aluno-create/{Id:int}"
+@using Presentation.Web.Models.DTOs;
+@using Presentation.Web.Services;
+@inject IAlunoService _alunoService;
+@inject NavigationManager NavigationManager;
+
+<h3>@Title</h3>
+
+<EditForm Model="aluno" OnValidSubmit="OnValidSubmit" FormName="alunoForm">
+    <DataAnnotationsValidator />
+    <div class="mb-3">
+        <label class="form-label" for="Nome">Nome:</label>
+        <InputText class="form-control" @bind-Value="@aluno.Nome" />
+        <ValidationMessage For="@(() => aluno.Nome)" />
+    </div>
+    <div class="mb-3">
+        <label class="form-label" for="Usuario">Usuário:</label>
+        <InputText class="form-control" @bind-Value="@aluno.Usuario" />
+        <ValidationMessage For="@(() => aluno.Usuario)" />
+    </div>
+    <div class="mb-3">
+        <label class="form-label" for="Senha">Senha:</label>
+        <InputText @bind-Value="@aluno.Senha" class="form-control" type="password" />
+        <ValidationMessage For="@(() => aluno.Senha)" />
+    </div>
+    <button type="submit" class="btn btn-primary">@ButtonText</button>
+</EditForm>
+
+@code {
+    [Parameter]
+    public int Id { get; set; } = 0;
+
+    string Title { get; set; }
+    string ButtonText { get; set; }
+
+    AlunoDTO aluno = new AlunoDTO();
+
+    protected override async Task OnInitializedAsync()
+    {
+        if (Id != 0)
+        {
+            aluno = await _alunoService.GetById(Id);
+            Title = "Editar Aluno";
+            ButtonText = "Atualizar";
+        }
+        else
+        {
+            Title = "Novo Aluno";
+            ButtonText = "Criar";
+        }
+    }
+
+    private async Task OnValidSubmit()
+    {
+        try
+        {
+            if (aluno.Id == 0)
+            {
+            await _alunoService.Create(aluno);
+            }
+            else
+            {
+                await _alunoService.Update(aluno.Id, aluno);
+            }
+            NavigationManager.NavigateTo("/aluno-grid");
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Erro ao cadastrar aluno: {ex.Message}");
+        }
+    }
+}

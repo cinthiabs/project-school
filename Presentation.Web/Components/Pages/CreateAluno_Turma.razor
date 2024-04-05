@@ -1,0 +1,91 @@
+﻿@page "/aluno-turma-create"
+@page "/aluno-turma-create/{Id:int}"
+
+@using Presentation.Web.Models.DTOs;
+@using Presentation.Web.Services;
+@inject IAlunoService _alunoService;
+@inject ITurmaService _turmaService;
+@inject IAluno_TurmaService _alunoTurmaService;
+@inject NavigationManager NavigationManager;
+
+<h3>@Title</h3>
+
+<EditForm Model="@alunoTurma" OnValidSubmit="OnValidSubmit" FormName="alunoTurmaForm">
+    <DataAnnotationsValidator />
+    <div class="mb-3">
+        <label class="form-label" for="Aluno_Id">Aluno:</label>
+        <select class="form-control" @bind="@alunoTurma.Aluno_Id">
+            <option value="">Selecione um aluno</option>
+            @if (alunos != null)
+            {
+                @foreach (var aluno in alunos)
+                {
+                    <option value="@aluno.Id">@aluno.Nome</option>
+                }
+            }
+        </select>
+        <ValidationMessage For="@(() => alunoTurma.Aluno_Id)" />
+    </div>
+    <div class="mb-3">
+        <label class="form-label" for="Turma_Id">Turma:</label>
+        <select class="form-control" @bind="@alunoTurma.Turma_Id">
+            <option value="">Selecione uma turma</option>
+            @if (turmas != null)
+            {
+                @foreach (var turma in turmas)
+                {
+                    <option value="@turma.Id">@turma.Turma</option>
+                }
+            }
+        </select>
+        <ValidationMessage For="@(() => alunoTurma.Turma_Id)" />
+    </div>
+    <button type="submit" class="btn btn-primary">@ButtonText</button>
+</EditForm>
+
+@code {
+    [Parameter]
+    public int Id { get; set; } = 0;
+
+    string Title { get; set; }
+    string ButtonText { get; set; }
+
+    IEnumerable<AlunoDTO> alunos;
+    IEnumerable<TurmaDTO> turmas;
+
+    Aluno_TurmaDTO alunoTurma = new Aluno_TurmaDTO();
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            alunos = await _alunoService.GetAll();
+            turmas = await _turmaService.GetAll();
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Erro ao carregar alunos e turmas: {ex.Message}");
+        }
+
+        Title = (Id != 0) ? "Editar Aluno" : "Novo Relacionamento";
+        ButtonText = (Id != 0) ? "Atualizar" : "Criar";
+
+        if (Id != 0)
+        {
+            alunoTurma = await _alunoTurmaService.GetById(Id);
+        }
+    }
+
+    private async Task OnValidSubmit()
+    {
+        try
+        {
+            await _alunoTurmaService.Create(alunoTurma);
+            NavigationManager.NavigateTo("/aluno-turma-grid");
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Erro ao criar relação: {ex.Message}");
+        }
+    }
+}

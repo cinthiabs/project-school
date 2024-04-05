@@ -1,0 +1,24 @@
+C:\GITHUB\project-school\project-school\Entities\bin\Debug\net8.0\Entities.deps.json
+C:\GITHUB\project-school\project-school\Entities\bin\Debug\net8.0\Entities.dll
+C:\GITHUB\project-school\project-school\Entities\bin\Debug\net8.0\Entities.pdb
+C:\GITHUB\project-school\project-school\Entities\obj\Debug\net8.0\Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\GITHUB\project-school\project-school\Entities\obj\Debug\net8.0\Entities.AssemblyInfoInputs.cache
+C:\GITHUB\project-school\project-school\Entities\obj\Debug\net8.0\Entities.AssemblyInfo.cs
+C:\GITHUB\project-school\project-school\Entities\obj\Debug\net8.0\Entities.csproj.CoreCompileInputs.cache
+C:\GITHUB\project-school\project-school\Entities\obj\Debug\net8.0\Entities.dll
+C:\GITHUB\project-school\project-school\Entities\obj\Debug\net8.0\refint\Entities.dll
+C:\GITHUB\project-school\project-school\Entities\obj\Debug\net8.0\Entities.pdb
+C:\GITHUB\project-school\project-school\Entities\obj\Debug\net8.0\ref\Entities.dll
+C:\GITHUB\project-school\project-school\Entities\obj\Debug\net8.0\Entities.csproj.AssemblyReference.cache
+C:\Nova pasta\project-school\Entities\bin\Debug\net8.0\Entities.deps.json
+C:\Nova pasta\project-school\Entities\bin\Debug\net8.0\Entities.dll
+C:\Nova pasta\project-school\Entities\bin\Debug\net8.0\Entities.pdb
+C:\Nova pasta\project-school\Entities\obj\Debug\net8.0\Entities.csproj.AssemblyReference.cache
+C:\Nova pasta\project-school\Entities\obj\Debug\net8.0\Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Nova pasta\project-school\Entities\obj\Debug\net8.0\Entities.AssemblyInfoInputs.cache
+C:\Nova pasta\project-school\Entities\obj\Debug\net8.0\Entities.AssemblyInfo.cs
+C:\Nova pasta\project-school\Entities\obj\Debug\net8.0\Entities.csproj.CoreCompileInputs.cache
+C:\Nova pasta\project-school\Entities\obj\Debug\net8.0\Entities.dll
+C:\Nova pasta\project-school\Entities\obj\Debug\net8.0\refint\Entities.dll
+C:\Nova pasta\project-school\Entities\obj\Debug\net8.0\Entities.pdb
+C:\Nova pasta\project-school\Entities\obj\Debug\net8.0\ref\Entities.dll

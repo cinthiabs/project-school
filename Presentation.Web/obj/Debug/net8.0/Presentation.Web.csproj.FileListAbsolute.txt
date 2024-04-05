@@ -1,0 +1,72 @@
+C:\GITHUB\project-school\project-school\Presentation.Web\bin\Debug\net8.0\appsettings.Development.json
+C:\GITHUB\project-school\project-school\Presentation.Web\bin\Debug\net8.0\appsettings.json
+C:\GITHUB\project-school\project-school\Presentation.Web\bin\Debug\net8.0\Presentation.Web.staticwebassets.runtime.json
+C:\GITHUB\project-school\project-school\Presentation.Web\bin\Debug\net8.0\Presentation.Web.exe
+C:\GITHUB\project-school\project-school\Presentation.Web\bin\Debug\net8.0\Presentation.Web.deps.json
+C:\GITHUB\project-school\project-school\Presentation.Web\bin\Debug\net8.0\Presentation.Web.runtimeconfig.json
+C:\GITHUB\project-school\project-school\Presentation.Web\bin\Debug\net8.0\Presentation.Web.dll
+C:\GITHUB\project-school\project-school\Presentation.Web\bin\Debug\net8.0\Presentation.Web.pdb
+C:\GITHUB\project-school\project-school\Presentation.Web\obj\Debug\net8.0\Presentation.Web.GeneratedMSBuildEditorConfig.editorconfig
+C:\GITHUB\project-school\project-school\Presentation.Web\obj\Debug\net8.0\Presentation.Web.AssemblyInfoInputs.cache
+C:\GITHUB\project-school\project-school\Presentation.Web\obj\Debug\net8.0\Presentation.Web.AssemblyInfo.cs
+C:\GITHUB\project-school\project-school\Presentation.Web\obj\Debug\net8.0\Presentation.Web.csproj.CoreCompileInputs.cache
+C:\GITHUB\project-school\project-school\Presentation.Web\obj\Debug\net8.0\Presentation.Web.MvcApplicationPartsAssemblyInfo.cache
+C:\GITHUB\project-school\project-school\Presentation.Web\obj\Debug\net8.0\staticwebassets.build.json
+C:\GITHUB\project-school\project-school\Presentation.Web\obj\Debug\net8.0\staticwebassets.development.json
+C:\GITHUB\project-school\project-school\Presentation.Web\obj\Debug\net8.0\staticwebassets\msbuild.Presentation.Web.Microsoft.AspNetCore.StaticWebAssets.props
+C:\GITHUB\project-school\project-school\Presentation.Web\obj\Debug\net8.0\staticwebassets\msbuild.build.Presentation.Web.props
+C:\GITHUB\project-school\project-school\Presentation.Web\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Presentation.Web.props
+C:\GITHUB\project-school\project-school\Presentation.Web\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Presentation.Web.props
+C:\GITHUB\project-school\project-school\Presentation.Web\obj\Debug\net8.0\staticwebassets.pack.json
+C:\GITHUB\project-school\project-school\Presentation.Web\obj\Debug\net8.0\scopedcss\Components\Layout\MainLayout.razor.rz.scp.css
+C:\GITHUB\project-school\project-school\Presentation.Web\obj\Debug\net8.0\scopedcss\Components\Layout\NavMenu.razor.rz.scp.css
+C:\GITHUB\project-school\project-school\Presentation.Web\obj\Debug\net8.0\scopedcss\bundle\Presentation.Web.styles.css
+C:\GITHUB\project-school\project-school\Presentation.Web\obj\Debug\net8.0\scopedcss\projectbundle\Presentation.Web.bundle.scp.css
+C:\GITHUB\project-school\project-school\Presentation.Web\obj\Debug\net8.0\Presentation.Web.dll
+C:\GITHUB\project-school\project-school\Presentation.Web\obj\Debug\net8.0\refint\Presentation.Web.dll
+C:\GITHUB\project-school\project-school\Presentation.Web\obj\Debug\net8.0\Presentation.Web.pdb
+C:\GITHUB\project-school\project-school\Presentation.Web\obj\Debug\net8.0\Presentation.Web.genruntimeconfig.cache
+C:\GITHUB\project-school\project-school\Presentation.Web\obj\Debug\net8.0\ref\Presentation.Web.dll
+C:\GITHUB\project-school\project-school\Presentation.Web\bin\Debug\net8.0\Microsoft.AspNetCore.Authorization.dll
+C:\GITHUB\project-school\project-school\Presentation.Web\bin\Debug\net8.0\Microsoft.AspNetCore.Components.dll
+C:\GITHUB\project-school\project-school\Presentation.Web\bin\Debug\net8.0\Microsoft.AspNetCore.Metadata.dll
+C:\GITHUB\project-school\project-school\Presentation.Web\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\GITHUB\project-school\project-school\Presentation.Web\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\GITHUB\project-school\project-school\Presentation.Web\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\GITHUB\project-school\project-school\Presentation.Web\obj\Debug\net8.0\Presenta.B2202F51.Up2Date
+C:\Nova pasta\project-school\Presentation.Web\bin\Debug\net8.0\appsettings.Development.json
+C:\Nova pasta\project-school\Presentation.Web\bin\Debug\net8.0\appsettings.json
+C:\Nova pasta\project-school\Presentation.Web\bin\Debug\net8.0\Presentation.Web.staticwebassets.runtime.json
+C:\Nova pasta\project-school\Presentation.Web\bin\Debug\net8.0\Presentation.Web.exe
+C:\Nova pasta\project-school\Presentation.Web\bin\Debug\net8.0\Presentation.Web.deps.json
+C:\Nova pasta\project-school\Presentation.Web\bin\Debug\net8.0\Presentation.Web.runtimeconfig.json
+C:\Nova pasta\project-school\Presentation.Web\bin\Debug\net8.0\Presentation.Web.dll
+C:\Nova pasta\project-school\Presentation.Web\bin\Debug\net8.0\Presentation.Web.pdb
+C:\Nova pasta\project-school\Presentation.Web\bin\Debug\net8.0\Microsoft.AspNetCore.Authorization.dll
+C:\Nova pasta\project-school\Presentation.Web\bin\Debug\net8.0\Microsoft.AspNetCore.Components.dll
+C:\Nova pasta\project-school\Presentation.Web\bin\Debug\net8.0\Microsoft.AspNetCore.Metadata.dll
+C:\Nova pasta\project-school\Presentation.Web\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Nova pasta\project-school\Presentation.Web\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Nova pasta\project-school\Presentation.Web\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Nova pasta\project-school\Presentation.Web\obj\Debug\net8.0\Presentation.Web.GeneratedMSBuildEditorConfig.editorconfig
+C:\Nova pasta\project-school\Presentation.Web\obj\Debug\net8.0\Presentation.Web.AssemblyInfoInputs.cache
+C:\Nova pasta\project-school\Presentation.Web\obj\Debug\net8.0\Presentation.Web.AssemblyInfo.cs
+C:\Nova pasta\project-school\Presentation.Web\obj\Debug\net8.0\Presentation.Web.csproj.CoreCompileInputs.cache
+C:\Nova pasta\project-school\Presentation.Web\obj\Debug\net8.0\Presentation.Web.MvcApplicationPartsAssemblyInfo.cache
+C:\Nova pasta\project-school\Presentation.Web\obj\Debug\net8.0\staticwebassets.build.json
+C:\Nova pasta\project-school\Presentation.Web\obj\Debug\net8.0\staticwebassets.development.json
+C:\Nova pasta\project-school\Presentation.Web\obj\Debug\net8.0\staticwebassets\msbuild.Presentation.Web.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Nova pasta\project-school\Presentation.Web\obj\Debug\net8.0\staticwebassets\msbuild.build.Presentation.Web.props
+C:\Nova pasta\project-school\Presentation.Web\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Presentation.Web.props
+C:\Nova pasta\project-school\Presentation.Web\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Presentation.Web.props
+C:\Nova pasta\project-school\Presentation.Web\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Nova pasta\project-school\Presentation.Web\obj\Debug\net8.0\scopedcss\Components\Layout\MainLayout.razor.rz.scp.css
+C:\Nova pasta\project-school\Presentation.Web\obj\Debug\net8.0\scopedcss\Components\Layout\NavMenu.razor.rz.scp.css
+C:\Nova pasta\project-school\Presentation.Web\obj\Debug\net8.0\scopedcss\bundle\Presentation.Web.styles.css
+C:\Nova pasta\project-school\Presentation.Web\obj\Debug\net8.0\scopedcss\projectbundle\Presentation.Web.bundle.scp.css
+C:\Nova pasta\project-school\Presentation.Web\obj\Debug\net8.0\Presenta.B2202F51.Up2Date
+C:\Nova pasta\project-school\Presentation.Web\obj\Debug\net8.0\Presentation.Web.dll
+C:\Nova pasta\project-school\Presentation.Web\obj\Debug\net8.0\refint\Presentation.Web.dll
+C:\Nova pasta\project-school\Presentation.Web\obj\Debug\net8.0\Presentation.Web.pdb
+C:\Nova pasta\project-school\Presentation.Web\obj\Debug\net8.0\Presentation.Web.genruntimeconfig.cache
+C:\Nova pasta\project-school\Presentation.Web\obj\Debug\net8.0\ref\Presentation.Web.dll

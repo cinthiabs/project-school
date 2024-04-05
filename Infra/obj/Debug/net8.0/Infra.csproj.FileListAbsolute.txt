@@ -1,0 +1,34 @@
+C:\GITHUB\project-school\project-school\Infra\bin\Debug\net8.0\Infra.deps.json
+C:\GITHUB\project-school\project-school\Infra\bin\Debug\net8.0\Infra.dll
+C:\GITHUB\project-school\project-school\Infra\bin\Debug\net8.0\Infra.pdb
+C:\GITHUB\project-school\project-school\Infra\bin\Debug\net8.0\Domain.dll
+C:\GITHUB\project-school\project-school\Infra\bin\Debug\net8.0\Entities.dll
+C:\GITHUB\project-school\project-school\Infra\bin\Debug\net8.0\Domain.pdb
+C:\GITHUB\project-school\project-school\Infra\bin\Debug\net8.0\Entities.pdb
+C:\GITHUB\project-school\project-school\Infra\obj\Debug\net8.0\Infra.csproj.AssemblyReference.cache
+C:\GITHUB\project-school\project-school\Infra\obj\Debug\net8.0\Infra.GeneratedMSBuildEditorConfig.editorconfig
+C:\GITHUB\project-school\project-school\Infra\obj\Debug\net8.0\Infra.AssemblyInfoInputs.cache
+C:\GITHUB\project-school\project-school\Infra\obj\Debug\net8.0\Infra.AssemblyInfo.cs
+C:\GITHUB\project-school\project-school\Infra\obj\Debug\net8.0\Infra.csproj.CoreCompileInputs.cache
+C:\GITHUB\project-school\project-school\Infra\obj\Debug\net8.0\Infra.csproj.Up2Date
+C:\GITHUB\project-school\project-school\Infra\obj\Debug\net8.0\Infra.dll
+C:\GITHUB\project-school\project-school\Infra\obj\Debug\net8.0\refint\Infra.dll
+C:\GITHUB\project-school\project-school\Infra\obj\Debug\net8.0\Infra.pdb
+C:\GITHUB\project-school\project-school\Infra\obj\Debug\net8.0\ref\Infra.dll
+C:\Nova pasta\project-school\Infra\bin\Debug\net8.0\Infra.deps.json
+C:\Nova pasta\project-school\Infra\bin\Debug\net8.0\Infra.dll
+C:\Nova pasta\project-school\Infra\bin\Debug\net8.0\Infra.pdb
+C:\Nova pasta\project-school\Infra\bin\Debug\net8.0\Domain.dll
+C:\Nova pasta\project-school\Infra\bin\Debug\net8.0\Entities.dll
+C:\Nova pasta\project-school\Infra\bin\Debug\net8.0\Domain.pdb
+C:\Nova pasta\project-school\Infra\bin\Debug\net8.0\Entities.pdb
+C:\Nova pasta\project-school\Infra\obj\Debug\net8.0\Infra.csproj.AssemblyReference.cache
+C:\Nova pasta\project-school\Infra\obj\Debug\net8.0\Infra.GeneratedMSBuildEditorConfig.editorconfig
+C:\Nova pasta\project-school\Infra\obj\Debug\net8.0\Infra.AssemblyInfoInputs.cache
+C:\Nova pasta\project-school\Infra\obj\Debug\net8.0\Infra.AssemblyInfo.cs
+C:\Nova pasta\project-school\Infra\obj\Debug\net8.0\Infra.csproj.CoreCompileInputs.cache
+C:\Nova pasta\project-school\Infra\obj\Debug\net8.0\Infra.csproj.Up2Date
+C:\Nova pasta\project-school\Infra\obj\Debug\net8.0\Infra.dll
+C:\Nova pasta\project-school\Infra\obj\Debug\net8.0\refint\Infra.dll
+C:\Nova pasta\project-school\Infra\obj\Debug\net8.0\Infra.pdb
+C:\Nova pasta\project-school\Infra\obj\Debug\net8.0\ref\Infra.dll
