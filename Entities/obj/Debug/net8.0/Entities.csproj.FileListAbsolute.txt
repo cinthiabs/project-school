@@ -22,3 +22,16 @@ C:\Nova pasta\project-school\Entities\obj\Debug\net8.0\Entities.dll
 C:\Nova pasta\project-school\Entities\obj\Debug\net8.0\refint\Entities.dll
 C:\Nova pasta\project-school\Entities\obj\Debug\net8.0\Entities.pdb
 C:\Nova pasta\project-school\Entities\obj\Debug\net8.0\ref\Entities.dll
+C:\Users\LENOVO-EQP364\Desktop\Novoooo2\project-school\Entities\bin\Debug\net8.0\Entities.deps.json
+C:\Users\LENOVO-EQP364\Desktop\Novoooo2\project-school\Entities\bin\Debug\net8.0\Entities.dll
+C:\Users\LENOVO-EQP364\Desktop\Novoooo2\project-school\Entities\bin\Debug\net8.0\Entities.pdb
+C:\Users\LENOVO-EQP364\Desktop\Novoooo2\project-school\Entities\obj\Debug\net8.0\Entities.csproj.AssemblyReference.cache
+C:\Users\LENOVO-EQP364\Desktop\Novoooo2\project-school\Entities\obj\Debug\net8.0\Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LENOVO-EQP364\Desktop\Novoooo2\project-school\Entities\obj\Debug\net8.0\Entities.AssemblyInfoInputs.cache
+C:\Users\LENOVO-EQP364\Desktop\Novoooo2\project-school\Entities\obj\Debug\net8.0\Entities.AssemblyInfo.cs
+C:\Users\LENOVO-EQP364\Desktop\Novoooo2\project-school\Entities\obj\Debug\net8.0\Entities.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO-EQP364\Desktop\Novoooo2\project-school\Entities\obj\Debug\net8.0\Entities.sourcelink.json
+C:\Users\LENOVO-EQP364\Desktop\Novoooo2\project-school\Entities\obj\Debug\net8.0\Entities.dll
+C:\Users\LENOVO-EQP364\Desktop\Novoooo2\project-school\Entities\obj\Debug\net8.0\refint\Entities.dll
+C:\Users\LENOVO-EQP364\Desktop\Novoooo2\project-school\Entities\obj\Debug\net8.0\Entities.pdb
+C:\Users\LENOVO-EQP364\Desktop\Novoooo2\project-school\Entities\obj\Debug\net8.0\ref\Entities.dll

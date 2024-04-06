@@ -11,15 +11,14 @@ namespace Presentation.Web.Services
         {
             _httpClient = httpClient;
         }
-        public async Task Create(Aluno_TurmaDTO entity)
+        public async Task<HttpResponseMessage> Create(Aluno_TurmaDTO entity)
         {
             var json = JsonSerializer.Serialize(entity);
             var content = new StringContent(json, Encoding.UTF8, "application/json");
             var response = await _httpClient.PostAsync("api/Aluno_Turma", content);
 
-            response.EnsureSuccessStatusCode();
+            return response;
         }
-
         public async Task Delete(int entityID)
         {
             var response = await _httpClient.DeleteAsync($"api/Aluno_Turma/{entityID}");

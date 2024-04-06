@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fzi6i7xYJF1MYWUJJxouBp76N82TEH7CCMWAuuI0hIKKgtxPbLxB3B9Tgez5PqkEfWGdDOReoKxZCAkdKLs1xw==",
+  "dgSpecHash": "n5iO6eKHH6BDm3IgvOn85TK4OsejVN5hv9D/r/oIVVEXn5ysSrvcs+fgqevBf2t360AsCz+QZZBvZdDHVZ544g==",
   "success": true,
-  "projectFilePath": "C:\\Nova pasta\\project-school\\Infra\\Infra.csproj",
+  "projectFilePath": "C:\\Users\\LENOVO-EQP364\\Desktop\\Novoooo2\\project-school\\Infra\\Infra.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\LENOVO-EQP364\\.nuget\\packages\\dapper\\2.1.35\\dapper.2.1.35.nupkg.sha512",
     "C:\\Users\\LENOVO-EQP364\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",

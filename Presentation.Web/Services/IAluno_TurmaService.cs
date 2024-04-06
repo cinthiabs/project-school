@@ -6,7 +6,7 @@ namespace Presentation.Web.Services
     {
         Task<IEnumerable<Aluno_TurmaDTO>> GetAll();
         Task<Aluno_TurmaDTO> GetById(int entityID);
-        Task Create(Aluno_TurmaDTO entity);
+        Task<HttpResponseMessage> Create(Aluno_TurmaDTO entity);
         Task Update(int entityID, Aluno_TurmaDTO entity);
         Task Delete(int entityID);
         Task Disable(int entityID);

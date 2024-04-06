@@ -6,8 +6,8 @@ namespace Presentation.Web.Services
     {
         Task<IEnumerable<TurmaDTO>> GetAll();
         Task<TurmaDTO> GetById(int turmaId);
-        Task Create(TurmaDTO turma);
-        Task Update(int turmaId, TurmaDTO turma);
+        Task<HttpResponseMessage> Create(TurmaDTO turma);
+        Task <HttpResponseMessage> Update(int turmaId, TurmaDTO turma);
         Task Delete(int turmaId);
         Task Disable(int turmaId);
 

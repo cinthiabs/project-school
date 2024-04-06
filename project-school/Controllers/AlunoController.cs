@@ -31,9 +31,7 @@ namespace project_school.Controllers
             var aluno = await _service.GetAlunoById(id);
 
             if (aluno == null)
-            {
                 return NotFound($"Aluno com ID {id} não encontrado.");
-            }
             return Ok(aluno);
         }
 
@@ -41,9 +39,7 @@ namespace project_school.Controllers
         public async Task<IActionResult> CreateAluno(TableAluno aluno)
         {
             if (!IsStrongPassword(aluno.Senha))
-            {
                 return BadRequest("A senha deve ter pelo menos 8 caracteres, uma letra minúscula, uma letra maiúscula e um caractere especial.");
-            }
 
             string hashedPassword = Hash(aluno.Senha);
             aluno.Senha = hashedPassword;
@@ -59,8 +55,10 @@ namespace project_school.Controllers
             var existe = await _service.GetAlunoById(id);
             if (existe == null)
                 return NotFound($"Aluno com ID {id} não encontrado.");
-
             aluno.Id = id;
+            if (!IsStrongPassword(aluno.Senha))
+                return BadRequest("A senha deve ter pelo menos 8 caracteres, uma letra minúscula, uma letra maiúscula e um caractere especial.");
+
             await _service.UpdateAluno(aluno);
             return Ok("Registro Atualizado!");
         }

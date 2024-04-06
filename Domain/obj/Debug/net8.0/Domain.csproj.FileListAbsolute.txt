@@ -28,3 +28,19 @@ C:\Nova pasta\project-school\Domain\obj\Debug\net8.0\Domain.dll
 C:\Nova pasta\project-school\Domain\obj\Debug\net8.0\refint\Domain.dll
 C:\Nova pasta\project-school\Domain\obj\Debug\net8.0\Domain.pdb
 C:\Nova pasta\project-school\Domain\obj\Debug\net8.0\ref\Domain.dll
+C:\Users\LENOVO-EQP364\Desktop\Novoooo2\project-school\Domain\bin\Debug\net8.0\Domain.deps.json
+C:\Users\LENOVO-EQP364\Desktop\Novoooo2\project-school\Domain\bin\Debug\net8.0\Domain.dll
+C:\Users\LENOVO-EQP364\Desktop\Novoooo2\project-school\Domain\bin\Debug\net8.0\Domain.pdb
+C:\Users\LENOVO-EQP364\Desktop\Novoooo2\project-school\Domain\bin\Debug\net8.0\Entities.dll
+C:\Users\LENOVO-EQP364\Desktop\Novoooo2\project-school\Domain\bin\Debug\net8.0\Entities.pdb
+C:\Users\LENOVO-EQP364\Desktop\Novoooo2\project-school\Domain\obj\Debug\net8.0\Domain.csproj.AssemblyReference.cache
+C:\Users\LENOVO-EQP364\Desktop\Novoooo2\project-school\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LENOVO-EQP364\Desktop\Novoooo2\project-school\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+C:\Users\LENOVO-EQP364\Desktop\Novoooo2\project-school\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+C:\Users\LENOVO-EQP364\Desktop\Novoooo2\project-school\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO-EQP364\Desktop\Novoooo2\project-school\Domain\obj\Debug\net8.0\Domain.sourcelink.json
+C:\Users\LENOVO-EQP364\Desktop\Novoooo2\project-school\Domain\obj\Debug\net8.0\Domain.csproj.Up2Date
+C:\Users\LENOVO-EQP364\Desktop\Novoooo2\project-school\Domain\obj\Debug\net8.0\Domain.dll
+C:\Users\LENOVO-EQP364\Desktop\Novoooo2\project-school\Domain\obj\Debug\net8.0\refint\Domain.dll
+C:\Users\LENOVO-EQP364\Desktop\Novoooo2\project-school\Domain\obj\Debug\net8.0\Domain.pdb
+C:\Users\LENOVO-EQP364\Desktop\Novoooo2\project-school\Domain\obj\Debug\net8.0\ref\Domain.dll

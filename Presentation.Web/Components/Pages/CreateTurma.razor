@@ -1,53 +1,64 @@
 ﻿@page "/turma-create"
 @page "/turma-create/{Id:int}"
 @using Presentation.Web.Models.DTOs
-@using Presentation.Web.Models.Enums
 @using Presentation.Web.Services
+@using System.Net
 
 @inject ITurmaService _turmaService
 @inject NavigationManager NavigationManager
 
 <h3>@Title</h3>
 
-<EditForm Model="turma" OnValidSubmit="OnValidSubmit" FormName="turmaForm">
-    <div class="form-group">
+<EditForm method="post" Model="turma" OnValidSubmit="OnValidSubmit" FormName="turma-create">
+    <div class="mb-3">
         <label for="Curso">Curso:</label>
-        <InputSelect @bind-Value="@selectedCurso" class="form-control">
+        <InputSelect @bind-Value="selectedCursoId" class="form-control">
             <option value="">Selecione um curso</option>
-            @foreach (Curso curso in Enum.GetValues(typeof(Curso)))
-            {
-                <option value="@curso">@Enum.GetName(typeof(Curso), curso)</option>
-            }
+            <option value="1">Administração</option>
+            <option value="2">Data Science</option>
+            <option value="3">Marketing</option>
+            <option value="4">Web Design</option>
         </InputSelect>
     </div>
-    <div class="form-group">
+
+    <div class="mb-3">
         <label for="Turma">Turma:</label>
-        <InputText @bind-Value="@turma.Turma" class="form-control" />
+        <InputText @bind-Value="turma.Turma" class="form-control" />
     </div>
-    <div class="form-group">
+
+    <div class="mb-3">
         <label for="Ano">Ano:</label>
-        <InputNumber @bind-Value="@turma.Ano" class="form-control" />
+        <InputNumber @bind-Value="turma.Ano" class="form-control" />
     </div>
+
+    @if (!string.IsNullOrEmpty(sMessage))
+    {
+        <p class="text-danger">@sMessage</p>
+    }
+
     <button type="submit" class="btn btn-primary">@ButtonText</button>
 </EditForm>
 
 @code {
-
     [Parameter]
     public int Id { get; set; } = 0;
 
     string Title { get; set; }
     string ButtonText { get; set; }
+    string sMessage { get; set; }
 
-    TurmaDTO turma = new TurmaDTO();
-    Curso selectedCurso; 
+    [SupplyParameterFromForm]
+    public int selectedCursoId { get; set; } = new();
+
+    [SupplyParameterFromForm]
+    public TurmaDTO turma { get; set; } = new();
 
     protected override async Task OnInitializedAsync()
     {
         if (Id != 0)
         {
             turma = await _turmaService.GetById(Id);
-            selectedCurso = turma.Curso_Id;
+            selectedCursoId = turma.Curso_Id; 
             Title = "Editar Turma";
             ButtonText = "Atualizar";
         }
@@ -62,17 +73,43 @@
     {
         try
         {
-            turma.Curso_Id = selectedCurso; 
+            turma.Curso_Id = selectedCursoId;
+            if (turma.Curso_Id == 0 || turma.Turma =="" || turma.Ano ==0 )
+            {
+                sMessage = "Preencha todos os campos!";
+                return;
+            }
 
             if (turma.Id == 0)
             {
-                await _turmaService.Create(turma);
+                turma.Data_Criacao = DateTime.Now;
+                turma.Ativo = true;
+
+                var response = await _turmaService.Create(turma);
+
+                if (response.StatusCode == HttpStatusCode.BadRequest)
+                {
+                    sMessage = await response.Content.ReadAsStringAsync();
+                    StateHasChanged();
+                    return;
+                }
+
+                sMessage = "Cadastro realizado com sucesso!";
+                turma = new TurmaDTO();
             }
             else
             {
-                await _turmaService.Update(turma.Id, turma);
+                var response = await _turmaService.Update(turma.Id, turma);
+
+                if (response.StatusCode == HttpStatusCode.BadRequest)
+                {
+                    sMessage = await response.Content.ReadAsStringAsync();
+                    StateHasChanged();
+                    return;
+                }
+
+                sMessage = "Cadastro atualizado com sucesso!";
             }
-            NavigationManager.NavigateTo("/turma-grid");
         }
         catch (Exception ex)
         {

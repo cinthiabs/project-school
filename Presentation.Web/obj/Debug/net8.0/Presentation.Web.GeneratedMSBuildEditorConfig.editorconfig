@@ -9,75 +9,75 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Presentation.Web
 build_property.RootNamespace = Presentation.Web
-build_property.ProjectDir = C:\Nova pasta\project-school\Presentation.Web\
+build_property.ProjectDir = C:\Users\LENOVO-EQP364\Desktop\Novoooo2\project-school\Presentation.Web\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Nova pasta\project-school\Presentation.Web
+build_property.MSBuildProjectDirectory = C:\Users\LENOVO-EQP364\Desktop\Novoooo2\project-school\Presentation.Web
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Nova pasta/project-school/Presentation.Web/Components/App.razor]
+[C:/Users/LENOVO-EQP364/Desktop/Novoooo2/project-school/Presentation.Web/Components/App.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBcHAucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Nova pasta/project-school/Presentation.Web/Components/Pages/CreateAluno.razor]
+[C:/Users/LENOVO-EQP364/Desktop/Novoooo2/project-school/Presentation.Web/Components/Pages/CreateAluno.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDcmVhdGVBbHVuby5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Nova pasta/project-school/Presentation.Web/Components/Pages/CreateAluno_Turma.razor]
+[C:/Users/LENOVO-EQP364/Desktop/Novoooo2/project-school/Presentation.Web/Components/Pages/CreateAluno_Turma.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDcmVhdGVBbHVub19UdXJtYS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Nova pasta/project-school/Presentation.Web/Components/Pages/CreateTurma.razor]
+[C:/Users/LENOVO-EQP364/Desktop/Novoooo2/project-school/Presentation.Web/Components/Pages/CreateTurma.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDcmVhdGVUdXJtYS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Nova pasta/project-school/Presentation.Web/Components/Pages/Error.razor]
+[C:/Users/LENOVO-EQP364/Desktop/Novoooo2/project-school/Presentation.Web/Components/Pages/Error.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xFcnJvci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Nova pasta/project-school/Presentation.Web/Components/Pages/Home.razor]
+[C:/Users/LENOVO-EQP364/Desktop/Novoooo2/project-school/Presentation.Web/Components/Pages/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xIb21lLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Nova pasta/project-school/Presentation.Web/Components/Pages/InativarAluno.razor]
+[C:/Users/LENOVO-EQP364/Desktop/Novoooo2/project-school/Presentation.Web/Components/Pages/InativarAluno.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xJbmF0aXZhckFsdW5vLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Nova pasta/project-school/Presentation.Web/Components/Pages/InativarAluno_Turma.razor]
+[C:/Users/LENOVO-EQP364/Desktop/Novoooo2/project-school/Presentation.Web/Components/Pages/InativarAluno_Turma.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xJbmF0aXZhckFsdW5vX1R1cm1hLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Nova pasta/project-school/Presentation.Web/Components/Pages/InativarTurma.razor]
+[C:/Users/LENOVO-EQP364/Desktop/Novoooo2/project-school/Presentation.Web/Components/Pages/InativarTurma.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xJbmF0aXZhclR1cm1hLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Nova pasta/project-school/Presentation.Web/Components/Pages/ListAluno.razor]
+[C:/Users/LENOVO-EQP364/Desktop/Novoooo2/project-school/Presentation.Web/Components/Pages/ListAluno.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xMaXN0QWx1bm8ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Nova pasta/project-school/Presentation.Web/Components/Pages/ListAluno_Turma.razor]
+[C:/Users/LENOVO-EQP364/Desktop/Novoooo2/project-school/Presentation.Web/Components/Pages/ListAluno_Turma.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xMaXN0QWx1bm9fVHVybWEucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Nova pasta/project-school/Presentation.Web/Components/Pages/ListTurma.razor]
+[C:/Users/LENOVO-EQP364/Desktop/Novoooo2/project-school/Presentation.Web/Components/Pages/ListTurma.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xMaXN0VHVybWEucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Nova pasta/project-school/Presentation.Web/Components/Routes.razor]
+[C:/Users/LENOVO-EQP364/Desktop/Novoooo2/project-school/Presentation.Web/Components/Routes.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xSb3V0ZXMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Nova pasta/project-school/Presentation.Web/Components/_Imports.razor]
+[C:/Users/LENOVO-EQP364/Desktop/Novoooo2/project-school/Presentation.Web/Components/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xfSW1wb3J0cy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Nova pasta/project-school/Presentation.Web/Components/Layout/MainLayout.razor]
+[C:/Users/LENOVO-EQP364/Desktop/Novoooo2/project-school/Presentation.Web/Components/Layout/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTWFpbkxheW91dC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-mc64hutnuh
 
-[C:/Nova pasta/project-school/Presentation.Web/Components/Layout/NavMenu.razor]
+[C:/Users/LENOVO-EQP364/Desktop/Novoooo2/project-school/Presentation.Web/Components/Layout/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTmF2TWVudS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-tf38l5rh8b

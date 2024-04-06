@@ -32,3 +32,21 @@ C:\Nova pasta\project-school\Infra\obj\Debug\net8.0\Infra.dll
 C:\Nova pasta\project-school\Infra\obj\Debug\net8.0\refint\Infra.dll
 C:\Nova pasta\project-school\Infra\obj\Debug\net8.0\Infra.pdb
 C:\Nova pasta\project-school\Infra\obj\Debug\net8.0\ref\Infra.dll
+C:\Users\LENOVO-EQP364\Desktop\Novoooo2\project-school\Infra\bin\Debug\net8.0\Infra.deps.json
+C:\Users\LENOVO-EQP364\Desktop\Novoooo2\project-school\Infra\bin\Debug\net8.0\Infra.dll
+C:\Users\LENOVO-EQP364\Desktop\Novoooo2\project-school\Infra\bin\Debug\net8.0\Infra.pdb
+C:\Users\LENOVO-EQP364\Desktop\Novoooo2\project-school\Infra\bin\Debug\net8.0\Domain.dll
+C:\Users\LENOVO-EQP364\Desktop\Novoooo2\project-school\Infra\bin\Debug\net8.0\Entities.dll
+C:\Users\LENOVO-EQP364\Desktop\Novoooo2\project-school\Infra\bin\Debug\net8.0\Domain.pdb
+C:\Users\LENOVO-EQP364\Desktop\Novoooo2\project-school\Infra\bin\Debug\net8.0\Entities.pdb
+C:\Users\LENOVO-EQP364\Desktop\Novoooo2\project-school\Infra\obj\Debug\net8.0\Infra.csproj.AssemblyReference.cache
+C:\Users\LENOVO-EQP364\Desktop\Novoooo2\project-school\Infra\obj\Debug\net8.0\Infra.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LENOVO-EQP364\Desktop\Novoooo2\project-school\Infra\obj\Debug\net8.0\Infra.AssemblyInfoInputs.cache
+C:\Users\LENOVO-EQP364\Desktop\Novoooo2\project-school\Infra\obj\Debug\net8.0\Infra.AssemblyInfo.cs
+C:\Users\LENOVO-EQP364\Desktop\Novoooo2\project-school\Infra\obj\Debug\net8.0\Infra.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO-EQP364\Desktop\Novoooo2\project-school\Infra\obj\Debug\net8.0\Infra.sourcelink.json
+C:\Users\LENOVO-EQP364\Desktop\Novoooo2\project-school\Infra\obj\Debug\net8.0\Infra.csproj.Up2Date
+C:\Users\LENOVO-EQP364\Desktop\Novoooo2\project-school\Infra\obj\Debug\net8.0\Infra.dll
+C:\Users\LENOVO-EQP364\Desktop\Novoooo2\project-school\Infra\obj\Debug\net8.0\refint\Infra.dll
+C:\Users\LENOVO-EQP364\Desktop\Novoooo2\project-school\Infra\obj\Debug\net8.0\Infra.pdb
+C:\Users\LENOVO-EQP364\Desktop\Novoooo2\project-school\Infra\obj\Debug\net8.0\ref\Infra.dll

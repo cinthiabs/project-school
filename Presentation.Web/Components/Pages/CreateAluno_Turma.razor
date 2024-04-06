@@ -3,43 +3,44 @@
 
 @using Presentation.Web.Models.DTOs;
 @using Presentation.Web.Services;
+@using System.Net
 @inject IAlunoService _alunoService;
 @inject ITurmaService _turmaService;
 @inject IAluno_TurmaService _alunoTurmaService;
-@inject NavigationManager NavigationManager;
 
 <h3>@Title</h3>
 
-<EditForm Model="@alunoTurma" OnValidSubmit="OnValidSubmit" FormName="alunoTurmaForm">
-    <DataAnnotationsValidator />
+<EditForm method="post" Model="alunoTurma" OnValidSubmit="OnValidSubmit" FormName="aluno-turma-create">
     <div class="mb-3">
-        <label class="form-label" for="Aluno_Id">Aluno:</label>
-        <select class="form-control" @bind="@alunoTurma.Aluno_Id">
+        <label for="Aluno">Aluno:</label>
+        <InputSelect @bind-Value="selectedAlunoId" class="form-control">
             <option value="">Selecione um aluno</option>
-            @if (alunos != null)
+            @if (alunos != null && alunos.Any())
             {
                 @foreach (var aluno in alunos)
                 {
                     <option value="@aluno.Id">@aluno.Nome</option>
                 }
             }
-        </select>
-        <ValidationMessage For="@(() => alunoTurma.Aluno_Id)" />
+        </InputSelect>
     </div>
     <div class="mb-3">
         <label class="form-label" for="Turma_Id">Turma:</label>
-        <select class="form-control" @bind="@alunoTurma.Turma_Id">
+        <InputSelect @bind-Value="selectedTurmaId" class="form-control">
             <option value="">Selecione uma turma</option>
-            @if (turmas != null)
+            @if (turmas != null && turmas.Any())
             {
                 @foreach (var turma in turmas)
                 {
                     <option value="@turma.Id">@turma.Turma</option>
                 }
             }
-        </select>
-        <ValidationMessage For="@(() => alunoTurma.Turma_Id)" />
+        </InputSelect>
     </div>
+    @if (!string.IsNullOrEmpty(sMessage))
+    {
+        <p class="text-danger">@sMessage</p>
+    }
     <button type="submit" class="btn btn-primary">@ButtonText</button>
 </EditForm>
 
@@ -49,11 +50,19 @@
 
     string Title { get; set; }
     string ButtonText { get; set; }
+    string sMessage { get; set; }
+
+    Aluno_TurmaDTO alunoTurma = new Aluno_TurmaDTO();
+
+
+    [SupplyParameterFromForm]
+    public int selectedAlunoId { get; set; } = new ();
+
+    [SupplyParameterFromForm]
+    public int selectedTurmaId { get; set; } = new();
 
     IEnumerable<AlunoDTO> alunos;
     IEnumerable<TurmaDTO> turmas;
-
-    Aluno_TurmaDTO alunoTurma = new Aluno_TurmaDTO();
 
     protected override async Task OnInitializedAsync()
     {
@@ -67,12 +76,17 @@
             Console.WriteLine($"Erro ao carregar alunos e turmas: {ex.Message}");
         }
 
-        Title = (Id != 0) ? "Editar Aluno" : "Novo Relacionamento";
-        ButtonText = (Id != 0) ? "Atualizar" : "Criar";
-
         if (Id != 0)
         {
             alunoTurma = await _alunoTurmaService.GetById(Id);
+            Title = "Editar Relacionamento";
+            ButtonText = "Atualizar";
+        }
+        else
+        {
+            alunoTurma = new Aluno_TurmaDTO();
+            Title = "Novo Relacionamento";
+            ButtonText = "Criar";
         }
     }
 
@@ -80,12 +94,32 @@
     {
         try
         {
-            await _alunoTurmaService.Create(alunoTurma);
-            NavigationManager.NavigateTo("/aluno-turma-grid");
+            if (alunoTurma.Id == 0)
+            {
+                alunoTurma.Data_Criacao = DateTime.Now;
+                alunoTurma.Ativo = true;
+                alunoTurma.Turma_Id = selectedTurmaId;
+                alunoTurma.Aluno_Id = selectedAlunoId;
+
+                var response = await _alunoTurmaService.Create(alunoTurma);
+
+                if (response.StatusCode == HttpStatusCode.BadRequest)
+                {
+                    sMessage = await response.Content.ReadAsStringAsync();
+                    StateHasChanged();
+                    return;
+                }
+                sMessage = "Cadastro realizado com sucesso!";
+            }
+            else
+            {
+                await _alunoTurmaService.Update(alunoTurma.Id, alunoTurma);
+                sMessage = "Cadastro atualizado com sucesso!";
+            }
         }
         catch (Exception ex)
         {
-            Console.WriteLine($"Erro ao criar relação: {ex.Message}");
+            Console.WriteLine($"Erro ao cadastrar relacionamento: {ex.Message}");
         }
     }
 }

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "wGXJimA63fMrW25sfp8zvQH0kj3kJada1C9K/7vKGoI=",
+  "Hash": "zzUp4E01jkZ1TLysx0n+yo1/xQP5GqeIym/4LtTktfY=",
   "Source": "Presentation.Web",
   "BasePath": "_content/Presentation.Web",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "Presentation.Web\\wwwroot",
       "Source": "Presentation.Web",
-      "ContentRoot": "C:\\Nova pasta\\project-school\\Presentation.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\LENOVO-EQP364\\Desktop\\Novoooo2\\project-school\\Presentation.Web\\wwwroot\\",
       "BasePath": "_content/Presentation.Web",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Nova pasta\\project-school\\Presentation.Web\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Presentation.Web.styles.css",
+      "Identity": "C:\\Users\\LENOVO-EQP364\\Desktop\\Novoooo2\\project-school\\Presentation.Web\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Presentation.Web.styles.css",
       "SourceId": "Presentation.Web",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Nova pasta\\project-school\\Presentation.Web\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\LENOVO-EQP364\\Desktop\\Novoooo2\\project-school\\Presentation.Web\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/Presentation.Web",
       "RelativePath": "Presentation.Web.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Nova pasta\\project-school\\Presentation.Web\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Presentation.Web.styles.css"
+      "OriginalItemSpec": "C:\\Users\\LENOVO-EQP364\\Desktop\\Novoooo2\\project-school\\Presentation.Web\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Presentation.Web.styles.css"
     },
     {
-      "Identity": "C:\\Nova pasta\\project-school\\Presentation.Web\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Presentation.Web.bundle.scp.css",
+      "Identity": "C:\\Users\\LENOVO-EQP364\\Desktop\\Novoooo2\\project-school\\Presentation.Web\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Presentation.Web.bundle.scp.css",
       "SourceId": "Presentation.Web",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Nova pasta\\project-school\\Presentation.Web\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\LENOVO-EQP364\\Desktop\\Novoooo2\\project-school\\Presentation.Web\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/Presentation.Web",
       "RelativePath": "Presentation.Web.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Nova pasta\\project-school\\Presentation.Web\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Presentation.Web.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\LENOVO-EQP364\\Desktop\\Novoooo2\\project-school\\Presentation.Web\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Presentation.Web.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Nova pasta\\project-school\\Presentation.Web\\wwwroot\\app.css",
+      "Identity": "C:\\Users\\LENOVO-EQP364\\Desktop\\Novoooo2\\project-school\\Presentation.Web\\wwwroot\\app.css",
       "SourceId": "Presentation.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Nova pasta\\project-school\\Presentation.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\LENOVO-EQP364\\Desktop\\Novoooo2\\project-school\\Presentation.Web\\wwwroot\\",
       "BasePath": "_content/Presentation.Web",
       "RelativePath": "app.css",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\app.css"
     },
     {
-      "Identity": "C:\\Nova pasta\\project-school\\Presentation.Web\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\Users\\LENOVO-EQP364\\Desktop\\Novoooo2\\project-school\\Presentation.Web\\wwwroot\\bootstrap\\bootstrap.min.css",
       "SourceId": "Presentation.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Nova pasta\\project-school\\Presentation.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\LENOVO-EQP364\\Desktop\\Novoooo2\\project-school\\Presentation.Web\\wwwroot\\",
       "BasePath": "_content/Presentation.Web",
       "RelativePath": "bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Nova pasta\\project-school\\Presentation.Web\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\LENOVO-EQP364\\Desktop\\Novoooo2\\project-school\\Presentation.Web\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "Presentation.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Nova pasta\\project-school\\Presentation.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\LENOVO-EQP364\\Desktop\\Novoooo2\\project-school\\Presentation.Web\\wwwroot\\",
       "BasePath": "_content/Presentation.Web",
       "RelativePath": "bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Nova pasta\\project-school\\Presentation.Web\\wwwroot\\favicon.png",
+      "Identity": "C:\\Users\\LENOVO-EQP364\\Desktop\\Novoooo2\\project-school\\Presentation.Web\\wwwroot\\favicon.png",
       "SourceId": "Presentation.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Nova pasta\\project-school\\Presentation.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\LENOVO-EQP364\\Desktop\\Novoooo2\\project-school\\Presentation.Web\\wwwroot\\",
       "BasePath": "_content/Presentation.Web",
       "RelativePath": "favicon.png",
       "AssetKind": "All",

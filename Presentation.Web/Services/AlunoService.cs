@@ -12,13 +12,13 @@ namespace Presentation.Web.Services
             _httpClient = httpClient;
         }
 
-        public async Task Create(AlunoDTO aluno)
+        public async Task<HttpResponseMessage> Create(AlunoDTO aluno)
         {
             var json = JsonSerializer.Serialize(aluno);
             var content = new StringContent(json, Encoding.UTF8, "application/json");
             var response = await _httpClient.PostAsync("api/Aluno", content);
 
-            response.EnsureSuccessStatusCode();
+            return response;
         }
 
         public async Task<IEnumerable<AlunoDTO>> GetAll()
@@ -33,19 +33,17 @@ namespace Presentation.Web.Services
 
             return alunos;
         }
-        public async Task Update(int alunoId, AlunoDTO aluno)
+        public async Task<HttpResponseMessage> Update(int alunoId, AlunoDTO aluno)
         {
             var json = JsonSerializer.Serialize(aluno);
             var content = new StringContent(json, Encoding.UTF8, "application/json");
-
             var response = await _httpClient.PutAsync($"api/Aluno/{alunoId}", content);
 
-            response.EnsureSuccessStatusCode();
+            return response;
         }
         public async Task Delete(int alunoId)
         {
             var response = await _httpClient.DeleteAsync($"api/Aluno/{alunoId}");
-
             response.EnsureSuccessStatusCode();
         }
 

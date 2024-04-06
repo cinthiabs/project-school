@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cdI1edU5yLWORPU2e7PPBufR/R4Nrm3POr8gl3iRdahHgZ4mFWTrvQiF0mOm0BV2Ed/rYR2ea/l/9Am6A07YZA==",
+  "dgSpecHash": "m9eBc67dJwWId6a405SvWSeE7bErWCt/shpd9ktxd3A5COhD5DwVEa/SBtiCpcZGNjN05nSfzVy9PnE8r5zyvw==",
   "success": true,
-  "projectFilePath": "C:\\Nova pasta\\project-school\\Test\\Test.csproj",
+  "projectFilePath": "C:\\Users\\LENOVO-EQP364\\Desktop\\Novoooo2\\project-school\\Test\\Test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\LENOVO-EQP364\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\LENOVO-EQP364\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

@@ -2,28 +2,39 @@
 @page "/aluno-create/{Id:int}"
 @using Presentation.Web.Models.DTOs;
 @using Presentation.Web.Services;
+@using System.Net
 @inject IAlunoService _alunoService;
-@inject NavigationManager NavigationManager;
+
 
 <h3>@Title</h3>
 
-<EditForm Model="aluno" OnValidSubmit="OnValidSubmit" FormName="alunoForm">
-    <DataAnnotationsValidator />
+<EditForm method="post" Model="aluno" OnValidSubmit="OnValidSubmit" FormName="aluno-create" Enhance>
     <div class="mb-3">
         <label class="form-label" for="Nome">Nome:</label>
-        <InputText class="form-control" @bind-Value="@aluno.Nome" />
-        <ValidationMessage For="@(() => aluno.Nome)" />
+        <InputText class="form-control" @bind-Value="@aluno.Nome" requerid />
     </div>
     <div class="mb-3">
         <label class="form-label" for="Usuario">Usuário:</label>
         <InputText class="form-control" @bind-Value="@aluno.Usuario" />
-        <ValidationMessage For="@(() => aluno.Usuario)" />
     </div>
-    <div class="mb-3">
-        <label class="form-label" for="Senha">Senha:</label>
-        <InputText @bind-Value="@aluno.Senha" class="form-control" type="password" />
-        <ValidationMessage For="@(() => aluno.Senha)" />
-    </div>
+    @if (Id == 0) 
+    {
+        <div class="mb-3">
+            <label class="form-label" for="Senha">Senha:</label>
+            <InputText @bind-Value="@aluno.Senha" class="form-control" type="password" />
+        </div>
+    }
+    else
+    {
+        <div class="mb-3">
+            <label class="form-label" for="Senha">Nova Senha:</label>
+            <InputText @bind-Value="@novaSenha" class="form-control" type="password" />
+        </div>
+    }
+    @if (!string.IsNullOrEmpty(sMessage))
+    {
+        <p class="text-danger">@sMessage</p>
+    }
     <button type="submit" class="btn btn-primary">@ButtonText</button>
 </EditForm>
 
@@ -33,8 +44,13 @@
 
     string Title { get; set; }
     string ButtonText { get; set; }
+    string sMessage { get; set; }
 
-    AlunoDTO aluno = new AlunoDTO();
+    [SupplyParameterFromForm]
+    AlunoDTO aluno { get; set; } = new();
+
+    [SupplyParameterFromForm]
+    string novaSenha { get; set; }
 
     protected override async Task OnInitializedAsync()
     {
@@ -55,15 +71,44 @@
     {
         try
         {
-            if (aluno.Id == 0)
+            if (aluno.Nome == "" || aluno.Senha == "" || aluno.Usuario == "")
             {
-            await _alunoService.Create(aluno);
+                sMessage = "Preencha todos os campos!";
+                return;
             }
-            else
+
+
+            if (Id == 0)
             {
-                await _alunoService.Update(aluno.Id, aluno);
+                aluno.Data_Criacao = DateTime.Now;
+                aluno.Ativo = true;
+                var response = await _alunoService.Create(aluno);
+
+                if (response.StatusCode == HttpStatusCode.BadRequest)
+                {
+                    sMessage = await response.Content.ReadAsStringAsync();
+                    StateHasChanged();
+                    return;
+                }
+                sMessage = "Cadastro realizado com sucesso!";
+                aluno = new AlunoDTO();
             }
-            NavigationManager.NavigateTo("/aluno-grid");
+            else 
+            {
+                if (!string.IsNullOrEmpty(novaSenha))
+                {
+                    aluno.Senha = novaSenha;
+                }
+                var response = await _alunoService.Update(aluno.Id, aluno);
+
+                if (response.StatusCode == HttpStatusCode.BadRequest)
+                {
+                    sMessage = await response.Content.ReadAsStringAsync();
+                    StateHasChanged();
+                    return;
+                }
+                sMessage = "Cadastro atualizado com sucesso!";
+            }
         }
         catch (Exception ex)
         {

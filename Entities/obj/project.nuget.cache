@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7GlS5VRrmVbWBnOYyL7F7oJVH8Ee7zmWu6+gz1H91PcYNxWXJY7s8bjSaPrYazh+kCRFc0xU+6FojGQ7PBwPJQ==",
+  "dgSpecHash": "n70jLlN/IYBIcxOu8+JPZbGoaoamlFnbqyvZglQuRWc8NED/4gvMexSwuULwNgoO8mJFuw7IXyOIS73ISp4KWQ==",
   "success": true,
-  "projectFilePath": "C:\\Nova pasta\\project-school\\Entities\\Entities.csproj",
+  "projectFilePath": "C:\\Users\\LENOVO-EQP364\\Desktop\\Novoooo2\\project-school\\Entities\\Entities.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\LENOVO-EQP364\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
   ],

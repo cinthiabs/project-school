@@ -70,3 +70,40 @@ C:\Nova pasta\project-school\Presentation.Web\obj\Debug\net8.0\refint\Presentati
 C:\Nova pasta\project-school\Presentation.Web\obj\Debug\net8.0\Presentation.Web.pdb
 C:\Nova pasta\project-school\Presentation.Web\obj\Debug\net8.0\Presentation.Web.genruntimeconfig.cache
 C:\Nova pasta\project-school\Presentation.Web\obj\Debug\net8.0\ref\Presentation.Web.dll
+C:\Users\LENOVO-EQP364\Desktop\Novoooo2\project-school\Presentation.Web\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\LENOVO-EQP364\Desktop\Novoooo2\project-school\Presentation.Web\bin\Debug\net8.0\appsettings.json
+C:\Users\LENOVO-EQP364\Desktop\Novoooo2\project-school\Presentation.Web\bin\Debug\net8.0\Presentation.Web.staticwebassets.runtime.json
+C:\Users\LENOVO-EQP364\Desktop\Novoooo2\project-school\Presentation.Web\bin\Debug\net8.0\Presentation.Web.exe
+C:\Users\LENOVO-EQP364\Desktop\Novoooo2\project-school\Presentation.Web\bin\Debug\net8.0\Presentation.Web.deps.json
+C:\Users\LENOVO-EQP364\Desktop\Novoooo2\project-school\Presentation.Web\bin\Debug\net8.0\Presentation.Web.runtimeconfig.json
+C:\Users\LENOVO-EQP364\Desktop\Novoooo2\project-school\Presentation.Web\bin\Debug\net8.0\Presentation.Web.dll
+C:\Users\LENOVO-EQP364\Desktop\Novoooo2\project-school\Presentation.Web\bin\Debug\net8.0\Presentation.Web.pdb
+C:\Users\LENOVO-EQP364\Desktop\Novoooo2\project-school\Presentation.Web\bin\Debug\net8.0\Microsoft.AspNetCore.Authorization.dll
+C:\Users\LENOVO-EQP364\Desktop\Novoooo2\project-school\Presentation.Web\bin\Debug\net8.0\Microsoft.AspNetCore.Components.dll
+C:\Users\LENOVO-EQP364\Desktop\Novoooo2\project-school\Presentation.Web\bin\Debug\net8.0\Microsoft.AspNetCore.Metadata.dll
+C:\Users\LENOVO-EQP364\Desktop\Novoooo2\project-school\Presentation.Web\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\LENOVO-EQP364\Desktop\Novoooo2\project-school\Presentation.Web\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\LENOVO-EQP364\Desktop\Novoooo2\project-school\Presentation.Web\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\LENOVO-EQP364\Desktop\Novoooo2\project-school\Presentation.Web\obj\Debug\net8.0\Presentation.Web.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LENOVO-EQP364\Desktop\Novoooo2\project-school\Presentation.Web\obj\Debug\net8.0\Presentation.Web.AssemblyInfoInputs.cache
+C:\Users\LENOVO-EQP364\Desktop\Novoooo2\project-school\Presentation.Web\obj\Debug\net8.0\Presentation.Web.AssemblyInfo.cs
+C:\Users\LENOVO-EQP364\Desktop\Novoooo2\project-school\Presentation.Web\obj\Debug\net8.0\Presentation.Web.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO-EQP364\Desktop\Novoooo2\project-school\Presentation.Web\obj\Debug\net8.0\Presentation.Web.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\LENOVO-EQP364\Desktop\Novoooo2\project-school\Presentation.Web\obj\Debug\net8.0\Presentation.Web.sourcelink.json
+C:\Users\LENOVO-EQP364\Desktop\Novoooo2\project-school\Presentation.Web\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\LENOVO-EQP364\Desktop\Novoooo2\project-school\Presentation.Web\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\LENOVO-EQP364\Desktop\Novoooo2\project-school\Presentation.Web\obj\Debug\net8.0\staticwebassets\msbuild.Presentation.Web.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\LENOVO-EQP364\Desktop\Novoooo2\project-school\Presentation.Web\obj\Debug\net8.0\staticwebassets\msbuild.build.Presentation.Web.props
+C:\Users\LENOVO-EQP364\Desktop\Novoooo2\project-school\Presentation.Web\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Presentation.Web.props
+C:\Users\LENOVO-EQP364\Desktop\Novoooo2\project-school\Presentation.Web\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Presentation.Web.props
+C:\Users\LENOVO-EQP364\Desktop\Novoooo2\project-school\Presentation.Web\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\LENOVO-EQP364\Desktop\Novoooo2\project-school\Presentation.Web\obj\Debug\net8.0\scopedcss\Components\Layout\MainLayout.razor.rz.scp.css
+C:\Users\LENOVO-EQP364\Desktop\Novoooo2\project-school\Presentation.Web\obj\Debug\net8.0\scopedcss\Components\Layout\NavMenu.razor.rz.scp.css
+C:\Users\LENOVO-EQP364\Desktop\Novoooo2\project-school\Presentation.Web\obj\Debug\net8.0\scopedcss\bundle\Presentation.Web.styles.css
+C:\Users\LENOVO-EQP364\Desktop\Novoooo2\project-school\Presentation.Web\obj\Debug\net8.0\scopedcss\projectbundle\Presentation.Web.bundle.scp.css
+C:\Users\LENOVO-EQP364\Desktop\Novoooo2\project-school\Presentation.Web\obj\Debug\net8.0\Presenta.B2202F51.Up2Date
+C:\Users\LENOVO-EQP364\Desktop\Novoooo2\project-school\Presentation.Web\obj\Debug\net8.0\Presentation.Web.dll
+C:\Users\LENOVO-EQP364\Desktop\Novoooo2\project-school\Presentation.Web\obj\Debug\net8.0\refint\Presentation.Web.dll
+C:\Users\LENOVO-EQP364\Desktop\Novoooo2\project-school\Presentation.Web\obj\Debug\net8.0\Presentation.Web.pdb
+C:\Users\LENOVO-EQP364\Desktop\Novoooo2\project-school\Presentation.Web\obj\Debug\net8.0\Presentation.Web.genruntimeconfig.cache
+C:\Users\LENOVO-EQP364\Desktop\Novoooo2\project-school\Presentation.Web\obj\Debug\net8.0\ref\Presentation.Web.dll

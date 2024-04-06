@@ -1,7 +1,48 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Nova pasta\\project-school\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\LENOVO-EQP364\\Desktop\\Novoooo2\\project-school\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AEF9DF4E-7452-4734-92CA-CE6D21F7759A}|Presentation.Web\\Presentation.Web.csproj|c:\\users\\lenovo-eqp364\\desktop\\novoooo2\\project-school\\presentation.web\\components\\pages\\createaluno_turma.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AEF9DF4E-7452-4734-92CA-CE6D21F7759A}|Presentation.Web\\Presentation.Web.csproj|solutionrelative:presentation.web\\components\\pages\\createaluno_turma.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEF9DF4E-7452-4734-92CA-CE6D21F7759A}|Presentation.Web\\Presentation.Web.csproj|c:\\users\\lenovo-eqp364\\desktop\\novoooo2\\project-school\\presentation.web\\components\\pages\\createturma.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AEF9DF4E-7452-4734-92CA-CE6D21F7759A}|Presentation.Web\\Presentation.Web.csproj|solutionrelative:presentation.web\\components\\pages\\createturma.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEF9DF4E-7452-4734-92CA-CE6D21F7759A}|Presentation.Web\\Presentation.Web.csproj|c:\\users\\lenovo-eqp364\\desktop\\novoooo2\\project-school\\presentation.web\\services\\turmaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEF9DF4E-7452-4734-92CA-CE6D21F7759A}|Presentation.Web\\Presentation.Web.csproj|solutionrelative:presentation.web\\services\\turmaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEF9DF4E-7452-4734-92CA-CE6D21F7759A}|Presentation.Web\\Presentation.Web.csproj|c:\\users\\lenovo-eqp364\\desktop\\novoooo2\\project-school\\presentation.web\\components\\pages\\createaluno.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AEF9DF4E-7452-4734-92CA-CE6D21F7759A}|Presentation.Web\\Presentation.Web.csproj|solutionrelative:presentation.web\\components\\pages\\createaluno.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEF9DF4E-7452-4734-92CA-CE6D21F7759A}|Presentation.Web\\Presentation.Web.csproj|c:\\users\\lenovo-eqp364\\desktop\\novoooo2\\project-school\\presentation.web\\models\\enums\\curso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEF9DF4E-7452-4734-92CA-CE6D21F7759A}|Presentation.Web\\Presentation.Web.csproj|solutionrelative:presentation.web\\models\\enums\\curso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEF9DF4E-7452-4734-92CA-CE6D21F7759A}|Presentation.Web\\Presentation.Web.csproj|c:\\users\\lenovo-eqp364\\desktop\\novoooo2\\project-school\\presentation.web\\services\\iturmaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEF9DF4E-7452-4734-92CA-CE6D21F7759A}|Presentation.Web\\Presentation.Web.csproj|solutionrelative:presentation.web\\services\\iturmaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEF9DF4E-7452-4734-92CA-CE6D21F7759A}|Presentation.Web\\Presentation.Web.csproj|c:\\users\\lenovo-eqp364\\desktop\\novoooo2\\project-school\\presentation.web\\services\\ialunoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEF9DF4E-7452-4734-92CA-CE6D21F7759A}|Presentation.Web\\Presentation.Web.csproj|solutionrelative:presentation.web\\services\\ialunoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEF9DF4E-7452-4734-92CA-CE6D21F7759A}|Presentation.Web\\Presentation.Web.csproj|c:\\users\\lenovo-eqp364\\desktop\\novoooo2\\project-school\\presentation.web\\components\\pages\\inativaraluno.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AEF9DF4E-7452-4734-92CA-CE6D21F7759A}|Presentation.Web\\Presentation.Web.csproj|solutionrelative:presentation.web\\components\\pages\\inativaraluno.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEF9DF4E-7452-4734-92CA-CE6D21F7759A}|Presentation.Web\\Presentation.Web.csproj|c:\\users\\lenovo-eqp364\\desktop\\novoooo2\\project-school\\presentation.web\\components\\pages\\inativaraluno_turma.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AEF9DF4E-7452-4734-92CA-CE6D21F7759A}|Presentation.Web\\Presentation.Web.csproj|solutionrelative:presentation.web\\components\\pages\\inativaraluno_turma.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEF9DF4E-7452-4734-92CA-CE6D21F7759A}|Presentation.Web\\Presentation.Web.csproj|c:\\users\\lenovo-eqp364\\desktop\\novoooo2\\project-school\\presentation.web\\components\\pages\\inativarturma.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AEF9DF4E-7452-4734-92CA-CE6D21F7759A}|Presentation.Web\\Presentation.Web.csproj|solutionrelative:presentation.web\\components\\pages\\inativarturma.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +50,141 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CreateAluno.razor",
+              "DocumentMoniker": "C:\\Users\\LENOVO-EQP364\\Desktop\\Novoooo2\\project-school\\Presentation.Web\\Components\\Pages\\CreateAluno.razor",
+              "RelativeDocumentMoniker": "Presentation.Web\\Components\\Pages\\CreateAluno.razor",
+              "ToolTip": "C:\\Users\\LENOVO-EQP364\\Desktop\\Novoooo2\\project-school\\Presentation.Web\\Components\\Pages\\CreateAluno.razor",
+              "RelativeToolTip": "Presentation.Web\\Components\\Pages\\CreateAluno.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-06T02:51:01.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Curso.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO-EQP364\\Desktop\\Novoooo2\\project-school\\Presentation.Web\\Models\\Enums\\Curso.cs",
+              "RelativeDocumentMoniker": "Presentation.Web\\Models\\Enums\\Curso.cs",
+              "ToolTip": "C:\\Users\\LENOVO-EQP364\\Desktop\\Novoooo2\\project-school\\Presentation.Web\\Models\\Enums\\Curso.cs",
+              "RelativeToolTip": "Presentation.Web\\Models\\Enums\\Curso.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T02:46:21.069Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TurmaService.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO-EQP364\\Desktop\\Novoooo2\\project-school\\Presentation.Web\\Services\\TurmaService.cs",
+              "RelativeDocumentMoniker": "Presentation.Web\\Services\\TurmaService.cs",
+              "ToolTip": "C:\\Users\\LENOVO-EQP364\\Desktop\\Novoooo2\\project-school\\Presentation.Web\\Services\\TurmaService.cs",
+              "RelativeToolTip": "Presentation.Web\\Services\\TurmaService.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAowBsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T02:35:31.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "InativarAluno.razor",
+              "DocumentMoniker": "C:\\Users\\LENOVO-EQP364\\Desktop\\Novoooo2\\project-school\\Presentation.Web\\Components\\Pages\\InativarAluno.razor",
+              "RelativeDocumentMoniker": "Presentation.Web\\Components\\Pages\\InativarAluno.razor",
+              "ToolTip": "C:\\Users\\LENOVO-EQP364\\Desktop\\Novoooo2\\project-school\\Presentation.Web\\Components\\Pages\\InativarAluno.razor",
+              "RelativeToolTip": "Presentation.Web\\Components\\Pages\\InativarAluno.razor",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAoAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-06T01:58:03.776Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CreateAluno_Turma.razor",
+              "DocumentMoniker": "C:\\Users\\LENOVO-EQP364\\Desktop\\Novoooo2\\project-school\\Presentation.Web\\Components\\Pages\\CreateAluno_Turma.razor",
+              "RelativeDocumentMoniker": "Presentation.Web\\Components\\Pages\\CreateAluno_Turma.razor",
+              "ToolTip": "C:\\Users\\LENOVO-EQP364\\Desktop\\Novoooo2\\project-school\\Presentation.Web\\Components\\Pages\\CreateAluno_Turma.razor",
+              "RelativeToolTip": "Presentation.Web\\Components\\Pages\\CreateAluno_Turma.razor",
+              "ViewState": "AQIAAEoAAAAAAAAAAAAWwF0AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-06T01:24:51.831Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CreateTurma.razor",
+              "DocumentMoniker": "C:\\Users\\LENOVO-EQP364\\Desktop\\Novoooo2\\project-school\\Presentation.Web\\Components\\Pages\\CreateTurma.razor",
+              "RelativeDocumentMoniker": "Presentation.Web\\Components\\Pages\\CreateTurma.razor",
+              "ToolTip": "C:\\Users\\LENOVO-EQP364\\Desktop\\Novoooo2\\project-school\\Presentation.Web\\Components\\Pages\\CreateTurma.razor",
+              "RelativeToolTip": "Presentation.Web\\Components\\Pages\\CreateTurma.razor",
+              "ViewState": "AQIAADEAAAAAAAAAAAAUwDwAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-06T01:12:41.196Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IAlunoService.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO-EQP364\\Desktop\\Novoooo2\\project-school\\Presentation.Web\\Services\\IAlunoService.cs",
+              "RelativeDocumentMoniker": "Presentation.Web\\Services\\IAlunoService.cs",
+              "ToolTip": "C:\\Users\\LENOVO-EQP364\\Desktop\\Novoooo2\\project-school\\Presentation.Web\\Services\\IAlunoService.cs",
+              "RelativeToolTip": "Presentation.Web\\Services\\IAlunoService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T00:52:46.403Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ITurmaService.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO-EQP364\\Desktop\\Novoooo2\\project-school\\Presentation.Web\\Services\\ITurmaService.cs",
+              "RelativeDocumentMoniker": "Presentation.Web\\Services\\ITurmaService.cs",
+              "ToolTip": "C:\\Users\\LENOVO-EQP364\\Desktop\\Novoooo2\\project-school\\Presentation.Web\\Services\\ITurmaService.cs",
+              "RelativeToolTip": "Presentation.Web\\Services\\ITurmaService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T01:18:02.04Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "InativarAluno_Turma.razor",
+              "DocumentMoniker": "C:\\Users\\LENOVO-EQP364\\Desktop\\Novoooo2\\project-school\\Presentation.Web\\Components\\Pages\\InativarAluno_Turma.razor",
+              "RelativeDocumentMoniker": "Presentation.Web\\Components\\Pages\\InativarAluno_Turma.razor",
+              "ToolTip": "C:\\Users\\LENOVO-EQP364\\Desktop\\Novoooo2\\project-school\\Presentation.Web\\Components\\Pages\\InativarAluno_Turma.razor",
+              "RelativeToolTip": "Presentation.Web\\Components\\Pages\\InativarAluno_Turma.razor",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAADMAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-06T02:00:42.947Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "InativarTurma.razor",
+              "DocumentMoniker": "C:\\Users\\LENOVO-EQP364\\Desktop\\Novoooo2\\project-school\\Presentation.Web\\Components\\Pages\\InativarTurma.razor",
+              "RelativeDocumentMoniker": "Presentation.Web\\Components\\Pages\\InativarTurma.razor",
+              "ToolTip": "C:\\Users\\LENOVO-EQP364\\Desktop\\Novoooo2\\project-school\\Presentation.Web\\Components\\Pages\\InativarTurma.razor",
+              "RelativeToolTip": "Presentation.Web\\Components\\Pages\\InativarTurma.razor",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAAC0AAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-06T02:01:22.278Z",
+              "EditorCaption": ""
             }
           ]
         }

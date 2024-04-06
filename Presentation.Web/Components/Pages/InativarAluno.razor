@@ -11,6 +11,10 @@
     <EditForm Model="aluno" OnValidSubmit="InativarAlunoConfirm" FormName="Aluno">
         <p>Tem certeza que deseja inativar o aluno <strong>@aluno.Nome</strong>?</p>
         <button type="submit" class="btn btn-danger">Confirmar</button>
+        @if (!string.IsNullOrEmpty(sMessage))
+        {
+            <p class="text-success">@sMessage</p>
+        }
     </EditForm>
 }
 else
@@ -21,6 +25,7 @@ else
 @code {
     [Parameter]
     public int Id { get; set; }
+    string sMessage { get; set; }
 
     AlunoDTO aluno;
 
@@ -29,6 +34,7 @@ else
         try
         {
             aluno = await _alunoService.GetById(Id);
+
         }
         catch (Exception ex)
         {
@@ -43,7 +49,7 @@ else
             if (aluno != null)
             {
                 await _alunoService.Disable(aluno.Id);
-                NavigationManager.NavigateTo("/aluno-grid");
+                sMessage = "Cadastro inativado com sucesso!";
             }
         }
         catch (Exception ex)

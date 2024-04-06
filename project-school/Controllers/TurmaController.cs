@@ -35,7 +35,7 @@ namespace project_school.Controllers
         [HttpPost]
         public async Task<IActionResult> CreateTurma(TableTurma turma)
         {
-            if (turma.Data_Criacao < DateTime.Now)
+            if (turma.Data_Criacao < DateTime.Now.Date)
                 return BadRequest("A data de criação da turma não pode ser anterior à data atual.");
             
             var existingTurma = await _service.GetTurmaByName(turma.Turma);
